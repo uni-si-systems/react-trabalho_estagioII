@@ -1,0 +1,121 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background: url('background.jpg') no-repeat center center fixed;
+    background-size: cover;
+}
+
+.container1 {
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 20px;
+    border-radius: 8px;
+    max-width: 600px;
+    margin: 50px auto;
+    text-align: center;
+}
+
+.container2 {
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 20px;
+    border-radius: 8px;
+    max-width: 1000px;
+    margin: 50px auto;
+    text-align: center;
+}
+
+h1 {
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    margin-top: 10px;
+}
+
+input, select {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.opções{
+    width: 90%;
+    background-color: white;
+}
+
+.opções2{
+    width: 40%;
+    background-color: white;
+}
+
+.row {
+    display: flex;
+    justify-content: space-between;
+}
+
+.agendamento {
+    margin: 10px;
+    padding: 10px;
+}
+
+.column {
+    flex: 1;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+.botões {
+    background-color: #28a745;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.botões:hover {
+    background-color: #218838;
+}
+
+#agendForm {
+    padding: 10px;
+}
+
+#data:hover, #esporte:hover, #horario:hover {
+    border-color: blue;
+    cursor: pointer;
+}
+
+#nome:hover {
+    border-color: blue;
+}
+
+.btnEditar, .btnSalvar, .btnDeletar {
+    background-color: #5052d8;
+    color: white;
+    padding: 7px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.btnEditar:hover, .btnSalvar:hover, .btnDeletar:hover {
+    background-color: #282188;
+}
+.campoBuscar{
+    margin-left: 24%;
+    width: 50%;
+}
+
+.campoBuscar input{
+    border: 1px solid grey;
+    text-align: center;
+}
+
+.campoBuscar input:hover{
+    border: 1px blue solid;
+}
