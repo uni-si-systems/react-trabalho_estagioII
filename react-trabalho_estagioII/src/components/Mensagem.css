@@ -1,0 +1,14 @@
+.mensagem {
+    margin-top: 1px;
+    padding: 2px;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.mensagem.sucesso {
+    color: #155724;
+}
+
+.mensagem.erro {
+    color: #721c24;
+}
